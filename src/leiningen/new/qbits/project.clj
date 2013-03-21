@@ -10,5 +10,6 @@
              :dev  {:dependencies []}
              :test  {:dependencies []}}
   :codox {:src-dir-uri "https://github.com/mpenet/{{name}}/blob/master"
-          :src-linenum-anchor-prefix "L"}
+          :src-linenum-anchor-prefix "L"
+          :output-dir "doc/codox"}
   :warn-on-reflection true)
