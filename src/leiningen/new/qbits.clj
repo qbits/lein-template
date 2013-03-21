@@ -14,7 +14,6 @@
              ["CHANGELOG.md"                           (renderer "CHANGELOG.md")]
              [".gitignore"                             (renderer ".gitignore")]
              [".travis.yml"                            (renderer ".travis.yml")]
-             "doc/markdown"
              ["doc/markdown/guide.md"                  (renderer "guide.md")]
              "doc/codox"
              "src/qbits/{{sanitized}}"
