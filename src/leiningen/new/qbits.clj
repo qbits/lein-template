@@ -18,4 +18,4 @@
              "doc/codox"
              "src/qbits/{{sanitized}}"
              ["src/qbits/{{sanitized}}.clj"            (renderer "base.clj")]
-             ["test/qbits/{{sanitized}}/core_test.clj" (renderer "core_test.clj")])))
+             ["test/qbits/{{sanitized}}/test/core_test.clj" (renderer "core_test.clj")])))
