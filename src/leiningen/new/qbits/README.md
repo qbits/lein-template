@@ -3,7 +3,9 @@
 
 ## Documentation
 
-[A first draft can be found here](https://github.com/mpenet/{{name}}/blob/master/docs/intro.md) and you can also consult the [codox generated documentation](http://mpenet.github.com/{{name}}/#docs).
+[A usage guide is available](https://github.com/mpenet/{{name}}/blob/master/docs/guide.md)
+and you can also consult the
+[codox generated documentation](http://mpenet.github.com/{{name}}/#docs).
 
 ## Installation
 
