@@ -7,6 +7,8 @@
 
 ## Installation
 
+{{name}} is [available on Clojars](https://clojars.org/cc.qbits/{{name}}).
+
 Then add this to your dependencies:
 
 ```clojure
