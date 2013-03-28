@@ -9,7 +9,7 @@
 
 {{name}} is [available on Clojars](https://clojars.org/cc.qbits/{{name}}).
 
-Then add this to your dependencies:
+Add this to your dependencies:
 
 ```clojure
 [cc.qbits/{{name}} "0.1.0-SNAPSHOT"]
