@@ -21,6 +21,6 @@ if you are upgrading.
 
 ## License
 
-Copyright © {{year}} Max Penet
+Copyright © {{year}} [Max Penet](http://twitter.com/mpenet)
 
 Distributed under the Eclipse Public License, the same as Clojure.
