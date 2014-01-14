@@ -13,4 +13,4 @@
   :codox {:src-dir-uri "https://github.com/mpenet/{{name}}/blob/master"
           :src-linenum-anchor-prefix "L"
           :output-dir "doc/codox"}
-  :warn-on-reflection true)
+:global-vars {*warn-on-reflection* true})
