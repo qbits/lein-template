@@ -16,6 +16,7 @@
              [".travis.yml"                            (renderer ".travis.yml")]
              ["doc/markdown/guide.md"                  (renderer "guide.md")]
              "doc/codox"
+             "resources"
              "src/clj/qbits/{{sanitized}}"
              ;; "src/cljs/qbits/{{sanitized}}"
              "src/java/qbits/{{sanitized}}"
