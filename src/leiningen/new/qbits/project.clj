@@ -13,4 +13,7 @@
   :codox {:src-dir-uri "https://github.com/mpenet/{{name}}/blob/master"
           :src-linenum-anchor-prefix "L"
           :output-dir "doc/codox"}
-:global-vars {*warn-on-reflection* true})
+    :source-paths ["src/clj"]
+    :java-source-paths ["src/java"]
+    ;; :javac-options ["-source" "1.6" "-target" "1.6" "-g"]
+    :global-vars {*warn-on-reflection* true})

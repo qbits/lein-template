@@ -16,6 +16,9 @@
              [".travis.yml"                            (renderer ".travis.yml")]
              ["doc/markdown/guide.md"                  (renderer "guide.md")]
              "doc/codox"
-             "src/qbits/{{sanitized}}"
-             ["src/qbits/{{sanitized}}.clj"            (renderer "base.clj")]
+             "src/clj/qbits/{{sanitized}}"
+             ;; "src/cljs/qbits/{{sanitized}}"
+             "src/java/qbits/{{sanitized}}"
+             ["src/clj/qbits/{{sanitized}}.clj"        (renderer "base.clj")]
+             ["src/java/qbits/{{sanitized}}/Foo.java"  (renderer "base.java")]
              ["test/qbits/{{sanitized}}/test/core_test.clj" (renderer "core_test.clj")])))
