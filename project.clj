@@ -1,4 +1,4 @@
-(defproject qbits/lein-template "1.0.2"
+(defproject qbits/lein-template "1.0.3"
   :description "Tempate for qbits projects"
   :url "http://qbits.cc"
   :license {:name "Eclipse Public License"
