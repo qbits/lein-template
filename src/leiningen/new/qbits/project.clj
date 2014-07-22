@@ -10,7 +10,8 @@
              :1.6  {:dependencies [[org.clojure/clojure "1.6.0-master-SNAPSHOT"]]}
              :dev  {:dependencies [[codox "0.8.10"]]}
              :test  {:dependencies []}}
-  :codox {:src-dir-uri "https://github.com/mpenet/{{name}}/blob/master"
+
+  :codox {:src-dir-uri "https://github.com/mpenet/{{name}}/blob/master/"
           :src-linenum-anchor-prefix "L"
           :defaults {:doc/format :markdown}
           :output-dir "doc/codox"}
