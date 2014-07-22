@@ -8,11 +8,13 @@
   :profiles {:1.4  {:dependencies [[org.clojure/clojure "1.4.0"]]}
              :1.5  {:dependencies [[org.clojure/clojure "1.5.0"]]}
              :1.6  {:dependencies [[org.clojure/clojure "1.6.0-master-SNAPSHOT"]]}
-             :dev  {:dependencies []}
+             :dev  {:dependencies [[codox "0.8.10"]]}
              :test  {:dependencies []}}
   :codox {:src-dir-uri "https://github.com/mpenet/{{name}}/blob/master"
           :src-linenum-anchor-prefix "L"
+          :defaults {:doc/format :markdown}
           :output-dir "doc/codox"}
+
     :source-paths ["src/clj"]
     :java-source-paths ["src/java"]
     ;; :javac-options ["-source" "1.6" "-target" "1.6" "-g"]
