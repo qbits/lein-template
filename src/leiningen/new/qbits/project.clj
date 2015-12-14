@@ -3,9 +3,9 @@
   :url "https://github.com/mpenet/{{name}}"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.6.0"]
+  :dependencies [[org.clojure/clojure "1.7.0"]
                  ;; [com.gfredericks/catch-data "0.2.0"]
-                 ;; [com.stuartsierra/component "0.2.3"]
+                 ;; [com.stuartsierra/component "0.3.0"]
                  ;; [prismatic/schema "0.4.0"]
                  ]
   :profiles {:1.4  {:dependencies [[org.clojure/clojure "1.4.0"]]}
