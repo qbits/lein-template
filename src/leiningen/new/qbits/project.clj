@@ -5,6 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0-RC5"]
                  ;; [com.gfredericks/catch-data "0.2.0"]
+                 ;; [spootnik/uncaught "0.5.2"]
                  ;; [com.stuartsierra/component "0.3.1"]
                  ;; [prismatic/schema "1.0.4"]
                  ]
