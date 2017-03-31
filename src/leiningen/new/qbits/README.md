@@ -13,9 +13,9 @@ and you can also consult the
 
 Add this to your dependencies:
 
-```clojure
-[cc.qbits/{{name}} "0.1.0-SNAPSHOT"]
-```
+
+[![Clojars Project](https://img.shields.io/clojars/v/cc.qbits/{{name}}.svg)](https://clojars.org/cc.qbits/{{name}})
+
 
 Please check the
 [Changelog](https://github.com/mpenet/{{name}}/blob/master/CHANGELOG.md)
